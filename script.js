@@ -20,6 +20,8 @@ function storeTheme(){
     else localStorage.setItem("theme", "light")
 }
 
+
+
 gsap.registerPlugin(ScrollTrigger);
 // gsap.registerPlugin(ScrollSmoother);
 // let smoother = ScrollSmoother.create({

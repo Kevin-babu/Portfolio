@@ -15,6 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
     <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    
     <title>Kevin Babu</title>
 </head>
 <body>
@@ -426,7 +427,7 @@
                 <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                   <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
                 </a>
-                <p class="text-muted">© 2023</p>
+                <p class="text-muted" id="date"></p>
               </div>
           
               <div class="col mb-3">
@@ -458,6 +459,11 @@
 
 
         </div>
+        <script>
+          const today = new Date();
+          const year = today.getFullYear();
+          document.getElementById('date').textContent = "© "+year;
+        </script>
 
         <script src="script.js" defer></script>
 
