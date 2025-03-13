@@ -14,7 +14,7 @@ body, html{
 
 /* NIGHT MODE */*************
 :root {
-	--clr-body-bg:#c9cdd1 ;
+	--clr-body-bg:#333d4d ;
 	--clr-heading-text: rgb(34, 31, 31) ;
 	--clr-disc-text: black;
 	--clr-transparency: rgba(0, 0, 0, 0.479);
@@ -24,7 +24,7 @@ body, html{
 
 }
 :root:has(#dn:checked){
-	--clr-body-bg:#051727 ;
+	--clr-body-bg:#10101d ;
 	--clr-heading-text: rgb(168, 157, 157) ;
 	--clr-disc-text: white;
 	--clr-transparency: rgba(252, 247, 247, 0.096);
@@ -98,7 +98,7 @@ body, html{
 	top:0;
   height: 100vh;
 	width: 100%;
-	background: linear-gradient(45deg, #40e0d0, #7f94da, #9932cc);
+	background: linear-gradient(45deg, #2f9389, #7289ce, #6a2b8a);
   color: white;
 	-webkit-mask-image: var(--mask);
 	mask-image: var(--mask);
@@ -127,7 +127,7 @@ body, html{
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    border: 10px solid rgb(57, 61, 63);
+    border: 10px solid rgb(46, 65, 86);
     float: left;
     margin: 4% 8%;
     /* filter: grayscale(100%); */
